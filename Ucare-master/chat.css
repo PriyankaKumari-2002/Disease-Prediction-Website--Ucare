@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: #CE95EA 0% 0% no-repeat padding-box;
+}
+
+.navbar .menu b{
+    font-size: 65px;
+    color: #600092;
+}
+
+.navbar .menu img{
+    width: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    color: #600092;
+    font-size: 25px;
+}
+
+.menu ul .right{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.menu ul .right a{
+    text-decoration: none;
+}
+
+.menu ul .right .active{
+    font-weight: bold ;
+}
+
+.menu ul #login{
+    padding-top: 15px;
+}
+.menu ul li .login{
+    border-radius: 43px;
+    height: 65px;
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAD8FF;
+    background-color: #600092;
+    border-color: #600092;
+    text-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 5px 4px #00000029;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  
+  .flex-item-left {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 45%;
+    text-align: center;
+    background: transparent linear-gradient(195deg, #600092 0%, #CE95EA 100%) 0% 0% no-repeat padding-box;
+  }
+  .flex-item-left b{
+    text-align: center;
+    font: normal normal bold 60px/80px Segoe UI;
+    letter-spacing: 0px;
+    color: #FAD8FF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+
+  .flex-item-left img{
+      padding: 20px;
+  }
+  .flex-item-right {
+    padding: 40px;
+    flex: 55%;
+    padding-top: 100px;
+    text-align: center;
+    font: normal normal normal 40px/53px Segoe UI;
+    vertical-align: middle;
+    letter-spacing: 0px;
+    color: #FAD8FF;
+  }
+  .flex-item-right .box{
+      
+      width: 700px;
+      height: 700px;
+      background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+border-radius: 40px;
+margin-bottom: 20px;
+  }
+  .flex-item-right .chat{
+      width: 600px;
+      height: 80px;
+      
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FAD8FF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 45px;
+  }

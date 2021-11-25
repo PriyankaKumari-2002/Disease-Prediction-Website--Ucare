@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: #CE95EA 0% 0% no-repeat padding-box;
+}
+
+.navbar .menu b{
+    font-size: 65px;
+    color: #600092;
+}
+
+.navbar .menu img{
+    width: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    color: #600092;
+    font-size: 25px;
+}
+
+.menu ul .right{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.menu ul .right a{
+    text-decoration: none;
+}
+
+.menu ul .right .active{
+    font-weight: bold ;
+}
+
+.menu ul #login{
+    padding-top: 15px;
+}
+.menu ul li .login{
+    border-radius: 43px;
+    height: 65px;
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAD8FF;
+    background-color: #600092;
+    border-color: #600092;
+    text-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 5px 4px #00000029;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.content{
+    text-align: center;
+    font: normal normal bold 50px/67px Segoe UI;
+    letter-spacing: 0px;
+    color: #FAD8FF;
+    
+    background: transparent linear-gradient(133deg, #600092 0%, #A966C5 47%, #FAD8FF 100%) 0% 0% no-repeat padding-box;
+}
+.content b{
+    text-shadow: 0px 10px 10px #600092;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+  }
+  
+  .flex-container > div {
+    
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container .item{
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 4px #00000029;
+    border: 1px solid #707070;
+    border-radius: 39px;
+    opacity: 1;
+    
+    height: 300px;
+    width: 350px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .item img{
+      height: 170px;
+      width: 160px;
+      
+      padding-top: 26px;
+  }
+  .item .name{
+    text-align: center;
+    font: normal normal normal 20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #600092;
+    opacity: 1;
+    text-shadow: none;
+  }
+  .item .work{
+    color: var(--unnamed-color-707070);
+text-align: center;
+font: normal normal 400 20px Bahnschrift;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+  }
+  

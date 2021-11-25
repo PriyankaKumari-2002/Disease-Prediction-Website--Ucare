@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #CE95EA
+}
+
+.navbar .menu b{
+    font-size: 65px;
+    color: #600092;
+}
+
+.navbar .menu img{
+    width: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    color: #600092;
+    font-size: 25px;
+}
+
+.menu ul .right{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.menu ul .right a{
+    text-decoration: none;
+}
+
+.menu ul .right .active{
+    font-weight: bold ;
+}
+
+.menu ul #login{
+    padding-top: 15px;
+}
+.menu ul li .login{
+    border-radius: 43px;
+    height: 65px;
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAD8FF;
+    background-color: #600092;
+    border-color: #600092;
+    text-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 5px 4px #00000029;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    color: #600092;
+    font-size: 40px ;
+    width: 50%;
+    text-align: left;
+    letter-spacing: 0.12px;
+    padding: 90px;
+    padding-top: 190px;
+  }
+
+  .flex-item-right {
+    flex: 50%;
+    width: 50%;
+    padding: 40px;
+  }
+
+  .flex-item-right img{
+    height: 450px;
+  }
+
+  .gen{
+    width: 250px;
+    height: 80px;
+    background-color: #CE95EA;
+    text-align: center;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    color:#600092 ;
+    opacity: 1;
+    font-weight: bold;
+}
+.foorm{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#600092 ;
+}
+.op2{
+    padding-top: 30px;
+}
+#opt{
+    width: 300px;
+    height: 50px;
+    background-color: #FAD8FF;
+    border: none;
+    box-shadow: inset 0px 3px 6px #00000029;
+  }
+#name{
+    width: 300px;
+    height: 50px;
+    background-color: #FAD8FF;
+    border: none;
+    box-shadow: inset 0px 3px 6px #00000029;
+}
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.kidney {
+    cursor: pointer;
+    padding: 10px;
+    flex: 33.3%;
+    justify-content: center;
+  }
+  
+  .cardio {
+    cursor: pointer;
+    padding: 10px;
+    flex: 33.3%;
+    align-items: center;
+  }
+  
+  
+  .diabetes {
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+    flex: 33.3%;
+  }
+
+.options img{
+  padding-left: 25%;
+}
+
+.kform {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .kform-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .kform-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  .k1 label{
+    color: #600092;
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 15px;
+  }
+  
+  #que{
+    background-color: #FAD8FF;
+    height: 45px;
+    border: none;
+    box-shadow: inset 0px 3px 6px #00000029;
+  }
+  
+  .kform-right{
+    text-align: right;
+    padding-right: 150px;
+  }
+  .check-box label{
+    font-weight: normal;
+    font-size: 30px;
+  }
+ #title{
+     font-size: 40px;
+ } 
+  .check-box input{
+    height: 30px;
+    width: 30px;
+  }
+  button{
+        margin-left: 40%;
+        width: 250px;
+        height: 80px;
+        background-color: #CE95EA;
+        text-align: center;
+        border-radius: 40px;
+        font-size: 30px;
+        color:#600092 ;
+        opacity: 1;
+        font-weight: bold;
+        border: none;
+        box-shadow: 0px 7px 6px #00000029;
+        text-shadow: 0px 3px 6px #00000029;
+  }
+#kney{
+    display: flex;
+    display: none;
+}
+#hrt{
+    display: none;
+}
+#diab{
+    display: none;
+}
+.submit{
+    display: none;
+}

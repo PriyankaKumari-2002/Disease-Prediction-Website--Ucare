@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    padding: 0px;
+    margin: 0px; 
+}
+.main{
+    background: url("images/Path\ 1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+
+.navbar .menu b{
+    font-size: 65px;
+    color: #600092;
+}
+
+.navbar .menu img{
+    width: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    color: #600092;
+    font-size: 25px;
+}
+
+.menu ul .right{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.menu ul .right a{
+    text-decoration: none;
+}
+
+.menu ul .right .active{
+    font-weight: bold ;
+}
+
+.menu ul #login{
+    padding-top: 15px;
+}
+.menu ul li .login{
+    border-radius: 43px;
+    height: 65px;
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAD8FF;
+    background-color: #600092;
+    border-color: #600092;
+    text-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 5px 4px #00000029;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  
+  .flex-item-left {
+    padding-left: 73px;
+    padding-top: 86px;
+    
+    flex: 50%;
+    text-align: left;
+  }
+  
+  .flex-item-left b{
+    text-align: left;
+font: normal normal bold 65px/51px Segoe UI;
+letter-spacing: 0px;
+color: #600092;
+font-size: 80px;
+line-height: 80px;
+  }
+
+  .flex-item-left p{
+    text-align: left;
+    font: normal normal 400 30px/27px Segoe UI;
+    line-height: 45px;
+    letter-spacing: 0px;
+    color: #600092;
+    width: 415px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .flex-item-right {
+    padding: 20px;
+    flex: 50%;
+    
+    text-align: left;
+    font: normal normal normal 40px/53px Segoe UI;
+    vertical-align: middle;
+    letter-spacing: 0px;
+    color: #FAD8FF;
+  }
+  .flex-item-right img{
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  .flex-item-left button{
+    width: 423px;
+    height: 98px;
+    background: #600092 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 4px #00000029;
+    border-radius: 43px;
+    opacity: 1;
+    
+    text-align: center;
+font: normal normal 600 35px/47px Segoe UI;
+letter-spacing: 0px;
+color: #FAD8FF;
+text-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+
+  }
+  .flex-item-left button img{
+      height: 35px;
+      padding-left: 15px;
+  }
